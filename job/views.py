@@ -16,7 +16,7 @@ def job_list(request):
     context ={'jobs':page_obj}#template name
     return render(request,'job/job_list.html',context)
 
-def job_detail(request , id):
-    job_detail=Job.objects.get(id=id)
+def job_detail(request , slug):
+    job_detail=Job.objects.get(slug=slug)
     context ={'job_d':job_detail}#template name
     return render(request,'job/job_detail.html',context)
