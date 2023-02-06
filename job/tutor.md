@@ -16,7 +16,7 @@
 
 
 
-Relations : 
+Relations there are three relation  : 
     - One to many    [ user - posts ]   Foreginkey
     - Many to many   [ user - groups ]  
     - One to one  [ user - profile ]
