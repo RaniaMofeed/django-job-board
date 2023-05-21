@@ -1,6 +1,6 @@
-# django-job-board
+# Job Board
 
-# Description
+## Description
 Web application written in python and django that simulate a hiring platform that connects companies and talented people. This application contains the following:
 - Register new talanted users
 - Admin user can create new job which contains salary, years of excperience
@@ -10,8 +10,14 @@ Web application written in python and django that simulate a hiring platform tha
 - Performance consideration is in place where I implemented pagination
 
 
-# How to Run
+## How to Run
 ```bash
 $ pip install -r requirements.txt
 $ python manage.py  runserver
 ```
+## Tech Stack 
+- Python 
+- Django 
+- SQL lite DB 
+- REST
+
